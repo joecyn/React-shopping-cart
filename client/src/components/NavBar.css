@@ -1,0 +1,16 @@
+.navCart{
+    position: relative;
+}
+.cart-icon{
+    position: absolute;
+    left:25px;
+    top: -10px;
+    background-color:yellow;
+    color:black;
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    padding-bottom:10px;
+    text-align: center;
+    margin-top: 5px;
+}

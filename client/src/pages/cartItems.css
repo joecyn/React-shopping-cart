@@ -1,0 +1,53 @@
+.carditem{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    width: 980px;
+    margin:auto;
+}
+.carditem img,img{
+    width:100px;
+    height:100px;
+}
+.quantity{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button{
+    display: flex;
+    height: 30px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.Add{
+    margin-right: 10px;
+}
+.Sub{
+    margin-left: 10px;
+}
+
+
+.cart{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    
+}
+.btn{
+    margin-left: 20px;
+}
+.subtotal{
+    display: grid;
+    float: inline-end;
+    width: 250px;
+    margin-top: 25px;
+    
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+
+}
